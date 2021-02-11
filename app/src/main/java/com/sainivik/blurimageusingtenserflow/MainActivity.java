@@ -55,7 +55,6 @@ public class MainActivity extends AppCompatActivity {
 
                 }
 
-
             }
         });
         binding.btnConvertBlur.setOnClickListener(new View.OnClickListener() {
