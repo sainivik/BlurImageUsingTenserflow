@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            tools:context=".MainActivity">
+
+            <ImageView
+                android:id="@+id/ivBeforeBlur"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+            <Button
+                android:id="@+id/btnPhoto"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:text="Photo" />
+
+            <LinearLayout
+                android:id="@+id/llBluDetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Choose blur persentage(%) :"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <androidx.appcompat.widget.AppCompatSeekBar
+                    android:id="@+id/seekbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="50dp"
+                    android:layout_marginTop="20dp" />
+
+                <TextView
+                    android:id="@+id/tvPer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0%"
+                    android:textColor="#000000"
+                    android:textSize="25sp" />
+
+                <Button
+                    android:id="@+id/btnConvertBlur"
+                    android:layout_width="170dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Blur Photo" />
+
+                <ImageView
+                    android:id="@+id/ivAfterBlur"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="20dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</layout>
