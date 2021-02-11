@@ -1,7 +1,7 @@
 # BlurImageUsingTenserflow
 
 ### Screenshot
-<img src="https://github.com/sainivik/CircularTimerKotilin/blob/master/app/screenshots/demo.png" width="300px" height="632px"/>
+<img src="https://github.com/sainivik/BlurImageUsingTenserflow/blob/master/app/screenshots/demo.png" width="300px" height="632px"/>
 
 #### Usage
 
